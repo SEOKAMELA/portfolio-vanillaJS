@@ -7,7 +7,7 @@ body {
 /* header  */
 
 .header {
-    background-color: #4CAF50;
+    background-color: #120869;
     color: white;
     display: flex;
     justify-content: space-between;
@@ -34,7 +34,7 @@ body {
 /* .container  */
 .container {
     padding: 20px;
-    background-color: red;
+    background-color: #120869;
 }
 .top-box {
     margin-bottom: 20px;
@@ -60,4 +60,8 @@ body {
 
 }
 
+.about-me{
+    color: red;
+    text-decoration: double;
+}
 
