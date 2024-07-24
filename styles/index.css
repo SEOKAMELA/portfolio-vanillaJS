@@ -42,7 +42,7 @@ body {
 .top-box {
     margin-bottom: 20px;
     padding: 20px;
-    /* background-color: #d9d9d9; */
+    background-color: #d9d9d9;
 }
 
 .flex-container {
@@ -56,19 +56,20 @@ body {
 
 .left-box {
     flex: 1;
-    /* background-color: #f9f9f9; */
+    background-color: #f9f9f9;
     margin-right: 5px;
 }
 
 .right-box {
     flex: 2;
-    /* background-color: #bb7f7f; */
+    background-color: #bb7f7f;
     margin-left: 5px;
 }
 
 .about-me {
-    /* color: rgb(253, 233, 233); */
+    color: rgb(253, 233, 233);
     text-decoration: double;
+    color: rebeccapurple;
 }
 
 .my-image img {
@@ -81,18 +82,26 @@ body {
 .career-nav {
     display: flex;
     justify-content: flex-start;
-    gap: 100px;
+    gap: 10px;
 }
 
 .career-nav a {
     text-decoration: none;
     color: #000;
-    padding: 5px 10px;
+    padding-right: 100px ;
     border-radius: 4px;
-    
+    cursor: pointer;
 }
 
 .career-nav a:hover {
     background-color: #f0f0f0;
 }
 
+.content {
+    margin-top: 20px;
+    display: none;
+}
+
+.content.active {
+    display: block;
+}
