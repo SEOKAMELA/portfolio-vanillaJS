@@ -4,36 +4,39 @@ body {
     padding: 0;
 }
 
-/* header  */
-
+/* Header */
 .header {
-    background-color: #120869;
+    background-color: #9d98c4;
     color: white;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 15px 30px;
 }
+
 .header .logo {
     font-size: 24px;
     font-weight: bold;
 }
+
 .header nav {
     display: flex;
     gap: 20px;
 }
+
 .header nav a {
     color: white;
     text-decoration: none;
     font-size: 18px;
 }
+
 .header nav a:hover {
     text-decoration: underline;
 }
 
 .container {
     padding: 20px;
-    background-color: #120869;
+    background-color: #3d3c44;
 }
 
 .top-box {
@@ -48,27 +51,57 @@ body {
 }
 
 .box {
-    flex: 1;
     padding: 20px;
 }
 
 .left-box {
+    flex: 1;
     background-color: #f9f9f9;
     margin-right: 5px;
 }
 
 .right-box {
-    background-color: #e9e9e9;
+    flex: 2;
+    background-color: #bb7f7f;
     margin-left: 5px;
 }
 
 .about-me {
-    color: red;
+    color: rgb(253, 233, 233);
     text-decoration: double;
+    color: rebeccapurple;
 }
 
 .my-image img {
     max-width: 100%;
     height: auto;
+    display: block;
+    border-radius: 10px;
+}
+
+.career-nav {
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+}
+
+.career-nav a {
+    text-decoration: none;
+    color: #000;
+    padding-right: 100px ;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.career-nav a:hover {
+    background-color: #f0f0f0;
+}
+
+.content {
+    margin-top: 20px;
+    display: none;
+}
+
+.content.active {
     display: block;
 }
